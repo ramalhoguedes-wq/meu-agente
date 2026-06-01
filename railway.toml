@@ -1,2 +1,2 @@
 [deploy]
-startCommand = "streamlit run agente_web.py --server.port=8080 --server.address=0.0.0.0 --server.headless=true"
+startCommand = "streamlit run agente_web.py --server.port=8080 --server.address=0.0.0.0 --server.headless=true --server.enableCORS=false --server.enableXsrfProtection=false"
